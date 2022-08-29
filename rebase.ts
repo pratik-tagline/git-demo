@@ -9,6 +9,12 @@ export class rebase {
   }
 }
 
+class Person {
+  constructor(public name: string) {
+    this.name = name;
+  }
+}
+
 import { Employee } from "./f1";
 
 let employee = new Employee(2, "Pratik");
