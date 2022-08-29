@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-let a;
-let b;
-let c = b;
-=======
 interface IPerson {
   name: string;
   display(): void;
@@ -31,4 +26,3 @@ per.display(); // Name = Bill, Employee Code = 100
 
 let emp: IEmployee = new Employee(100, "Bill");
 // emp.display(); //Compiler Error: Property 'display' does not exist on type 'IEmployee'
->>>>>>> 16c5730 (changes in f1 and d1 file,created develop-rebase.ts file)

@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 let hello = prompt;
 let goodBye = hello;
-=======
+
 class employee {
   public empName: string;
   protected empCode: number;
@@ -15,12 +14,11 @@ class employee {
 class SalesEmployee extends Employee {
   private department: string;
 
-  constructor(name: string, code: number, department: string) {
-    super();
+  constructor(empName: string, empCode: number, department: string) {
+    super(empCode, empName);
     this.department = department;
   }
 }
 
 let empl = new SalesEmployee("John Smith", 123, "Sales");
 // emp.empCode; //Compiler Error
->>>>>>> f89c689 (Modified m1.ts & m2.ts file in develop branch)
